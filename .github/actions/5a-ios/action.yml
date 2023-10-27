@@ -20,7 +20,7 @@ runs:
             sysroot='/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk'
         else
             sysroot='/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk'
-            triple="$triple-simulator$"
+            triple="$triple-simulator"
         fi
 
         # use bootstrap-ldc, which is guaranteed to be native
